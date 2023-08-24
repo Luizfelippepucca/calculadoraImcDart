@@ -1,2 +1,2 @@
-A sample command-line application with an entrypoint in `bin/`, library code
-in `lib/`, and example unit test in `test/`.
+calculadora de indice de massa corporal feita em dart.
+Para rodar o projeto clone o repositório e execute dart run se tiver o dart instalado em sua máquina.
