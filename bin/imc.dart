@@ -5,7 +5,7 @@ import 'dart:io';
 void main(List<String> arguments) {
   print('digite seu nome:');
   var nome = stdin.readLineSync(encoding: utf8);
-  print('digite seu peso:');
+  print('digite seu peso');
   var peso = stdin.readLineSync(encoding: utf8);
   dynamic pesoConvertido = double.tryParse(peso.toString()) ?? 'valor inválido';
   if (pesoConvertido == 'valor inválido') {
